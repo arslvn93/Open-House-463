@@ -1,70 +1,59 @@
-const config = {
+{
   "property": {
-    "streetAddress": "142 Valley Glen Heights NW",
+    "streetAddress": "160 Sora Terrace SE",
     "city": "Calgary",
-    "cityStateZip": "Calgary, AB T3B 5S8",
-    "heroSubtitle": "Amazing back yard, expansive 44x146-foot lot (7,588 sq ft) backing onto a tranquil nature reserve and the renowned Bow River Pathway. Register to receive the complete property Home &amp; Neighbourhood Info Package, virtual tour, floor plans, and comparables.",
-    "backgroundImageUrl": "https://cdn.realtor.ca/listing/TS638829328681570000/reb9/highres/1/A2219911_1.jpg"
+    "cityStateZip": "Calgary, AB t3s0m1",
+    "heroSubtitle": "More house for your dollar compared to inner-city or established communities. New community with amazing parks. Plans for future schools, retail, and community amenities are underway as the neighbourhood expands. 2025 build with a basement waiting to be customized to the new owner. The area is designed to balance urban living with natural spaces, creating a welcoming suburban community. Register to receive the complete property Home & Neighbourhood Info Package, virtual tour, floor plans, and comparables.",
+    "backgroundImageUrl": "https://api.typeform.com/responses/files/224aef7d1f57376b3a19d2c328a0cc2b9c608ca25a28dda334dcab5ef7934e89/front.jfif",
+    "listingPrice": "$609,950.",
+    "numberOfBeds": 3,
+    "numberOfBaths": 2.5,
+    "homeType": "townhome",
+    "assets": [
+      {"text": "Property Listing URL", "url": "https://www.realtor.ca/real-estate/28363197/160-sora-terrace-se-calgary-hotchkiss"},
+      {"text": "Floor Plan", "url": "https://matrixmedia.pillarnine.com/mediaserver/GetMedia.ashx?Key=101081232&TableID=0&Type=3&Number=0&Size=0&NNF=1&RFN=RMS.pdf&tstmp=0527103138&exk=be8a01e99de4bef8715f4f9def888f8f"},
+      {"text": "Virtual Tour", "url": "https://unbranded.youriguide.com/160_sora_ter_se_calgary_ab/"},
+      {"text": "On-Market Comparables & Recent Neighborhood Sales", "url": "https://matrix.pillarnine.com/DE.asp?p=DE-267371539-169&k=4209874X4C2F&eml=YW15bGNhdWdobGluQGdtYWlsLmNvbQ=="}
+    ],
+    "photos": [
+      "https://api.typeform.com/responses/files/224aef7d1f57376b3a19d2c328a0cc2b9c608ca25a28dda334dcab5ef7934e89/front.jfif",
+      "https://api.typeform.com/responses/files/94b5c3498569ae7b82828c96905b225c195608d487b0fed2fea294047cb099b7/kitchen.jfif"
+    ]
   },
   "realtor": {
     "fullName": "Amy Caughlin",
     "title": "REALTOR®",
     "phone": "15874391618",
-    "email": "arslan@salesgenius.co",
-    "bio": "A former risk manager turned Realtor, proptech co-founder, podcast host, and passionate community advocate. I help busy professionals and families find homes that truly fit their lives, while working behind the scenes to make real estate better for everyone involved. With a background in risk management, I bring a strategic lens to every transaction, ensuring my clients make informed, confident decisions. I’m also the co-founder of Jazzberry, a platform designed by realtors, for realtors. A proud Maritimer, I lead with authenticity, hospitality, and heart. Whether I’m running along the Bow River, adventuring in the mountains with my family, or hosting FutureRE — The Future of Real Estate, I’m always driven by curiosity, connection, and impact.",
-    "photoUrl": "https://static.showit.co/800/TUEDlhwVYAO5v1iU87fE1w/264146/headshot.jpg",
+    "email": "amy@caughlinrealestate.ca",
+    "bio": "A former risk manager turned Realtor, proptech co-founder, podcast host, and passionate community advocate. I help busy professionals and families find homes that truly fit their lives, while working behind the scenes to make real estate better for everyone involved. With a background in risk management, I bring a strategic lens to every transaction, ensuring my clients make informed, confident decisions. I’m also the co-founder of Jazzberry, a platform designed by realtors, for realtors, built to simplify the chaos behind the curtain so clients experience more clarity, transparency, and joy in their home journey. A proud Maritimer, I lead with authenticity, hospitality, and heart. Whether I’m running along the Bow River, adventuring in the mountains with my family, or hosting FutureRE — The Future of Real Estate, I’m always driven by curiosity, connection, and impact. My path hasn’t been linear — and I believe that’s where the magic lies. I’m here to challenge the status quo, build solutions that truly help people, and give back to the communities that raised me — especially organizations that uplift women, children, and families.",
+    "photoUrl": "https://prod-files-secure.s3.us-west-2.amazonaws.com/8e0c10a0-da43-409c-b191-91135b7161ff/d43b40bf-8ed2-49c3-a704-34908837cf96/SueMoodiePhotography_CalgaryBrandPhotography_AmyCaughlin_StudioSession_60_Edit.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466X2C64GEB%2F20250527%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250527T164532Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQCiIGlQvyUclVJXGQ6QDAK03Hz4MutEOSCfB6E89ItzCwIhAIGeBch1cR1KWvbn5866k6r3AJskVgucQQ5SMt48oJe5Kv8DCF8QABoMNjM3NDIzMTgzODA1IgyK61XnHS%2F5Y1cVy7Uq3AMhlGsRoR9LKJNxUVhztJGTX2HA04s3EpT9QizNOeYxc3MQEWffSm4CAuYNlGse6IYQ107G1%2FSwE%2Bl0GKviDAs7J%2F%2F6OzXtbkfdQTltsDFt4zCCUhOC47wyjt25W8iDHqmdW6QumOpJCTZdla9xMZUy0GDjk3AqcwMWB%2FrBBcG16b8PD3b6RQdT0zd6BCNj0eJMcKv%2BXWJyLKsX9qvVytQZtGrrZjNODHjXLJxTZ4Wf17OsnX0WqPxFJxAUeOJCDsvmQTyB0x2LVS2%2F0jcP%2FrkhabVNjbJb1RnAanWQqeIgxSE0RDChE7vGIka8nwAQ5sBJB4EztBNtV1voNad9O%2FEJAR%2FoJ7o04tVScorY3Be9WsolrNB7KQZgi3atuGoZNxi%2BUIDGTaZW4ipiFDIOXFGpRl9AbCrFYLKJ4UNWazGBmAJWEPltXxwj6TTNz%2FmMNvvh0ephY%2F1d%2BGkaFUvUGROvwzQ7PXZHKpFu7v72gotkfC7A0XAi7eDfbmdtsi6RPGuNmBb7sDO8KILgPGRItvtovBn2FG1m%2BVrkdQMJjU2rI68eZ0OHqvasly09nzXypyfDkfVxY95FO8LGe3qFRUkngQ71joVjIE1ID%2F%2Fz0%2FFBJuFCZqOEVgSczvQNSTD9%2FNbBBjqkAR5OsmXf2BBeI1avcVg6eS0YcC3cP%2F%2BXRtLFUAlxbOY4n64RSMUnMr2hn7tkAwFNxpEUGOmEVfYCt6ZQ%2FbY5c%2Fu1SLi7phXKvaxYHa7HwJNLIljwaBFZFUkk9SEnJbaOAx995r2ptqNR62MJN6TFRHURT1maP6pDA8GIHnxAv3cJ69%2FocqPd9Nk4YibPFPyAvPsYvweX%2FbFBeKn%2Fp8hcyEAN6udt&X-Amz-Signature=0921dbaf7579542af640c5cc5c337ad6d1d490c35296e9e76db13680261010f6&X-Amz-SignedHeaders=host&x-id=GetObject",
     "social": {
       "facebook": "https://www.facebook.com/caughlinrealestate/",
-      "instagram": "https://www.instagram.com/caughlin.realestate/",
-      "website": "https://caughlinrealestate.ca/"
+      "instagram": "https://instagram.com/alewi854",
+      "website": "https://www.welpneedthis.com"
     }
   },
   "brokerage": {
     "name": "Greater Property Group",
-    "logoUrl": "https://static.showit.co/400/I76PcfBRdfuEObejOPwzPQ/264146/gpg-no-tagline-logo-white.png",
+    "logoUrl": null,
     "address": "5940 Macleod Trl SW #500, Calgary, AB T2H 2G4"
   },
   "openHouse": {
-    "eventDate": "2025-05-17",
+    "eventDate": "2025-06-01",
     "bundleItems": [
-      {
-        "icon": "fas fa-ruler-combined",
-        "text": "Architectural Floor Plan"
-      },
-      {
-        "icon": "fas fa-star",
-        "text": "Neighbourhood Guide"
-      },
-      {
-        "icon": "fas fa-check-circle",
-        "text": "Market Stats"
-      },
-      {
-        "icon": "fas fa-car",
-        "text": "School District Information"
-      },
-      {
-        "icon": "fas fa-key",
-        "text": "Financing Resources"
-      },
-      {
-        "icon": "fas fa-home",
-        "text": "Utility Cost Estimates"
-      },
-      {
-        "icon": "fas fa-map-location-dot",
-        "text": "Property Feature List"
-      },
-      {
-        "icon": "fas fa-image",
-        "text": "Home Inspection Tips"
-      }
+      {"icon": "fas fa-link", "text": "Property Listing URL"},
+      {"icon": "fas fa-ruler-combined", "text": "Floor Plan"},
+      {"icon": "fas fa-image", "text": "Photos"},
+      {"icon": "fas fa-star", "text": "Neighbourhood Guide"},
+      {"icon": "fas fa-check-circle", "text": "On-Market Comparables"},
+      {"icon": "fas fa-chart-bar", "text": "Recent Neighborhood Sales"},
+      {"icon": "fas fa-image", "text": "Virtual Tour"}
     ]
   },
   "meta": {
     "pageTitlePrefix": "🏡 Amy Caughlin Open House",
     "navBrandLogoText": "OPEN HOUSE",
-    "privacyPolicyLink": "https://caughlinrealestate.ca/"
+    "privacyPolicyLink": "https://www.welpneedthis.com"
   },
   "settings": {
     "adminWebhookUrl": "https://n8n.salesgenius.co/webhook/openhouseupdate",
@@ -116,10 +105,10 @@ const config = {
     }
   ],
   "deploymentInfo": {
-    "repoName": "Open-House-957",
-    "repoUrl": "https://github.com/arslvn93/Open-House-957",
-    "tag": "Open House 142 Valley Glen Heights NW",
-    "netlifyUrl": "https://services.leadconnectorhq.com/hooks/zpjvSoJ3TMkdq8pcj7VJ/webhook-trigger/GIJI1X6L1zS4PxcScJqY",
-    "netlifyId": "dc35cadf-51e9-4ca8-843c-a084dd57add1"
+    "repoName": "Open-House-463",
+    "repoUrl": "https://github.com/arslvn93/Open-House-463",
+    "tag": "Open House 160 Sora Terrace SE",
+    "netlifyUrl": "https://services.leadconnectorhq.com/hooks/KxSrsX5ZH2ZttFjyt9hW/webhook-trigger/723v7Nh8JC60wCn3aRmV",
+    "siteId": "991455896"
   }
-};
+}
