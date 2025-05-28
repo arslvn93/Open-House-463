@@ -177,7 +177,7 @@ const config = {
     "repoName": "Open-House-463",
     "repoUrl": "https://github.com/arslvn93/Open-House-463",
     "tag": "Open House 160 Sora Terrace SE",
-    "netlifyUrl": "https://services.leadconnectorhq.com/hooks/KxSrsX5ZH2ZttFjyt9hW/webhook-trigger/723v7Nh8JC60wCn3aRmV",
+    "netlifyUrl": "https://services.leadconnectorhq.com/hooks/KxSrsX5ZH2ZttFjyt9hW/webhook-trigger/EWFVczQeMtLq5D4IVClg",
     "siteId": "30444048-5fe5-406b-9735-3b0d3f2fcc2d"
   }
 };
